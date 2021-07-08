@@ -6,13 +6,15 @@
     <?php
 
     foreach($items as $key => $item) {
-        echo '<img src="./images/'.$item['image'].'" />
-        <p>
-        '.$item['name'].'<br>
-        $'.$item['price'].'<br>
-        <a href="/order.php?item_id='.$item['item_id'].'"
-        class="buyBtn">Buy</a><br>
-        </p>';
+        echo '<img src="./images/'
+        .$item['image'].
+        '" /><p>'
+        .$item['name'].
+        '<br>$'
+        .$item['price'].
+        '<br> <a href="./order.php?item_id='
+        .$item['item_id'].
+        '"class="buyBtn">Buy</a><br></p>';
     }
 
     ?>

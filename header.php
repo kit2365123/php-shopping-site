@@ -12,12 +12,12 @@
 <body>
 <nav>
 <ul class="clientMenu">
-    <li><a href="/">Home</a></li>
-    <li><a href="/about.php">About</a></li>
+    <li><a href="./">Home</a></li>
+    <li><a href="./about.php">About</a></li>
 </ul>
 <ul class="clientMenu">
-    <li><a href="/allOrders.php">All Order</a></li>
-    <li><a href="/functions.php?op=logout">Logout</a></li>
-    <li><a href="login.php"></a>Login(Stuff)</li>
+    <li><a href="./allOrders.php">All Order</a></li>
+    <li><a href="./functions.php?op=logout">Logout</a></li>
+    <li><a href=./login.php"></a>Login(Stuff)</li>
 </ul>
 </nav>
